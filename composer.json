@@ -1,5 +1,5 @@
 {
-    "name": "web-eid/ocsp-php",
+    "name": "janekh/ocsp-php",
     "description": "OCSP library for PHP",
     "license": "MIT",
     "type": "library",
@@ -14,20 +14,20 @@
     },
     "autoload": {
         "psr-4": {
-            "web_eid\\ocsp_php\\": [
+            "janekh\\ocsp_php\\": [
                 "src"
             ]
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "web_eid\\ocsp_php\\": [
+            "janekh\\ocsp_php\\": [
                 "tests"
             ]
         }
     },
     "require": {
-        "php": ">=8.1",
+        "php": ">=7.4",
         "phpseclib/phpseclib": "3.0.*"
     },
     "scripts": {
